@@ -2390,7 +2390,7 @@ a,
 }
 
 /*   end animation   */
-.pattern-image {
+/* .pattern-image {
   width: 100%;
   background-size: 100%;
 }
@@ -2405,7 +2405,7 @@ a,
   opacity: 0.4;
   background: #000;
   background: url('../img/pattern.png');
-}
+} */
 
 .filter {
   position: relative;
@@ -2670,12 +2670,12 @@ a.carousel-control span.fa {
   border-color: white;
 }
 
-.section-we-are-1 .parallax,
+/* .section-we-are-1 .parallax,
 .section-we-are-1 .full-image,
 .section-we-are-2 .parallax,
 .section-we-are-2 .full-image {
   height: 450px;
-}
+} */
 .section-we-are-1 #carousel .carousel-control,
 .section-we-are-2 #carousel .carousel-control {
   width: 50%;

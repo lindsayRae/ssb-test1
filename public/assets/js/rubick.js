@@ -299,14 +299,14 @@ rubik = {
         transparent = false;
         $('nav[role="navigation"]').removeClass('navbar-transparent');
         document.getElementById('navBarLogo').src =
-          'assets/logo/bella-logo-black-800x146.png';
+          'assets/logo/unwind-rose.png';
       }
     } else {
       if (!transparent) {
         transparent = true;
         $('nav[role="navigation"]').addClass('navbar-transparent');
         document.getElementById('navBarLogo').src =
-          'assets/logo/bella-logo-white-800x146.png';
+          'assets/logo/unwind-white.png';
       }
     }
   }, 17),

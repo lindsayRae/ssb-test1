@@ -10,21 +10,5 @@ const handleContactSubmit = async () => {
     message: document.getElementById('formMessage').value,
   };
 
-  try {
-    const response = await fetch('/api/email', {
-      method: 'POST',
-      headers: {
-        'Content-type': 'application/json',
-      },
-      body: JSON.stringify(body),
-    });
-
-    const data = await response.json();
-    console.log(data);
-    if (data.status === 200) {
-      document.getElementById('emailForm').reset();
-    }
-  } catch (error) {
-    console.log('error', error);
-  }
+  alert('This email was not sent because this is just a demo site. Thank you.');
 };
